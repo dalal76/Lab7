@@ -66,7 +66,7 @@ ggplot(Whickham, aes(x = smoker)) +geom_bar()
 ```
 
 ```{r plot_age}
-ggplot(Whickham, aes(x = age)) +geom_bar()
+ggplot(Whickham, aes(x = age)) +geom_boxplot()
 ```
 
 
